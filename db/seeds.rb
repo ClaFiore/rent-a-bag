@@ -17,14 +17,38 @@ cat = User.create(
     balance: 500
 )
 
-tote = Handbag.create(
+claudia = User.create(
+    name: "Claudia",
+    email: "claudia.com",
+    address: "123",
+    balance: 500
+)
+
+bag = Handbag.create(
+    lister_id: claudia.id,
     designer: "Prada",
-    type: "tote",
+    bag_type: "bag",
     color: "red",
     fabric: "leather",
     price: 100,
     image: "image"
     )
+
+    clutch = Handbag.create(
+    lister_id: cat.id,
+    designer: "Gucci",
+    bag_type: "clutch",
+    color: "black",
+    fabric: "leather",
+    price: 100,
+    image: "image"
+    )
+
+    cat_rented = UserHandbag.create(user_id:cat.id, handbag_id: bag.id)
+    claudia_rented = UserHandbag.create(user_id:claudia.id, handbag_id: clutch.id)
+
+
+
 
 
 
