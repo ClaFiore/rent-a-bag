@@ -10,3 +10,21 @@ User.destroy_all
 Handbag.destroy_all
 UserHandbag.destroy_all
 
+cat = User.create(
+    name: "Catrina",
+    email: "cat.friday@gmail.com",
+    address: "123",
+    balance: 500
+)
+
+tote = Handbag.create(
+    designer: "Prada",
+    type: "tote",
+    color: "red",
+    fabric: "leather",
+    price: 100,
+    image: "image"
+    )
+
+
+
