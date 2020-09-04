@@ -1,0 +1,2 @@
+class UserHandbagsController < ApplicationController
+end
