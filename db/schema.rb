@@ -41,3 +41,4 @@ ActiveRecord::Schema.define(version: 2020_09_04_201218) do
   end
 
 end
+# add_reference :horoscopes, :user, null: false, foreign_key: true
