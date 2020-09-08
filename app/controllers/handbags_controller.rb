@@ -17,11 +17,11 @@ class HandbagsController < ApplicationController
     end
 
     def create
-        handbag = Handbag.new(handbag_params)
-        if handbag.save
+        handbag = Handbag.create(handbag_params)
+        if handbag.valid?
             render json: handbag
         else
-            render json: 'Handbag not saved'
+            render json: handbag.error_messages
         end
     end
 
