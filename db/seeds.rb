@@ -7,6 +7,9 @@ cat = User.create(name: "Catrina", email: "cat.friday@gmail.com", address: Faker
 claudia = User.create(name: "Claudia", email: "claudia@gmail.com", address: Faker::Address.full_address, balance: 500)
 sabrina = User.create(name: "Sabrina", email: "sabrina@gmail.com", address: Faker::Address.full_address, balance: 500)
 isabel = User.create(name: "Isabel", email: "isabel@yahoo.com", address: Faker::Address.full_address, balance: 500)
+julia = User.create(name: "Julia", email: "julia@yahoo.com", address: Faker::Address.full_address, balance: 500)
+helen = User.create(name: "Helen", email: "helen@yahoo.com", address: Faker::Address.full_address, balance: 500)
+sam = User.create(name: "Samantha", email: "sam@yahoo.com", address: Faker::Address.full_address, balance: 500)
 
 bag1 = Handbag.create(lister_id: cat.id, designer: "Hermes", bag_type: "handbag", color: "red", fabric: "leather", price: 280, image: "https://www.uokpl.rs/fpng/f/524-5245588_victoria-beckham-with.png")
 bag2 = Handbag.create(lister_id: cat.id, designer: "Louis Vuitton", bag_type: "travel bag", color: "brown", fabric: "leather", price: 195, image: "https://purepng.com/public/uploads/medium/purepng.com-louis-vuitton-women-baghandbagwomen-bagsoft-fabricladieslouisvuitton-1421526415334wvyve.png")
@@ -30,6 +33,24 @@ bag14 = Handbag.create(lister_id: isabel.id, designer: "Chloe", bag_type: "cross
 bag15 = Handbag.create(lister_id: isabel.id, designer: "Louis Vuitton", bag_type: "cross-body", color: "red", fabric: "leather", price: 190, image: "https://au.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton--M41731_PM2_Front%20view.png")
 bag16 = Handbag.create(lister_id: isabel.id, designer: "Celine", bag_type: "handbag", color: "back", fabric: "leather", price: 240, image: "https://cdn.shopify.com/s/files/1/0003/3859/1780/products/NanoLuggageBlack_1024x1024.png?v=1532072981")
 bag17 = Handbag.create(lister_id: isabel.id, designer: "Balenciaga", bag_type: "cross-body", color: "red", fabric: "leather", price: 180, image: "https://cdn.shopify.com/s/files/1/0087/1805/7551/products/4_dce96783-b316-480e-97e6-d44959e3bd74_800x.png?v=1575949328")
+
+bag18 = Handbag.create(lister_id: julia.id, designer: "Fendi", bag_type: "shopper", color: "brown", fabric: "leather", price: 150, image: "https://www.vippng.com/png/full/349-3492842_fendi-shopper-logo-price-vintage-fendi-baguette-bag.png")
+bag19 = Handbag.create(lister_id: julia.id, designer: "Valentino", bag_type: "handbag", color: "vanilla", fabric: "leather", price: 170, image: "https://cdn.shopify.com/s/files/1/1915/2605/products/valentino_go_logo_ribbon_small_single_handbag_crema_SW2B0E48-NKL_plu226178_front_grande.png?v=1575992182")
+bag20 = Handbag.create(lister_id: julia.id, designer: "Bulgari", bag_type: "cross-body", color: "green", fabric: "leather", price: 90, image: "https://media2.bulgari.com/f_auto,q_auto/production/dwdac7edc1/images/images/464564.png")
+bag21 = Handbag.create(lister_id: julia.id, designer: "Bottega Veneta", bag_type: "shopper", color: "dark green", fabric: "leather", price: 140, image: "https://luxussachen.com/media/image/c5/6e/18/Bottega-VenetaSKA.png")
+
+bag22 = Handbag.create(lister_id: helen.id, designer: "Miu Miu", bag_type: "clutch", color: "light blue", fabric: "leather", price: 210, image: "https://www.miumiu.com/content/dam/miumiu_products/5/5BD/5BD233/FVJF0012/5BD233_FVJ_F0012_V_COG_SLF.png")
+bag23 = Handbag.create(lister_id: helen.id, designer: "Miu Miu", bag_type: "cross-body", color: "black", fabric: "leather", price: 180, image: "https://www.miumiu.com/content/dam/miumiu_products/5/5BH/5BH118/N88F0002/5BH118_N88_F0002_V_OOM_SLF.png")
+bag24 = Handbag.create(lister_id: helen.id, designer: "Bulgari", bag_type: "cross-body", color: "silver", fabric: "leather", price: 80, image: "https://media2.bulgari.com/f_auto,q_auto/production/dw5ffd0d4c/images/images/1226430.png")
+bag25 = Handbag.create(lister_id: helen.id, designer: "Valentino", bag_type: "cross-body", color: "black", fabric: "leather", price: 130, image: "https://cdn.shopify.com/s/files/1/1915/2605/products/valentino_v-logo_shoulder_bag_black_H19-TW2B0G09ZXL-0N0_front.png?v=1586535446")
+
+bag26 = Handbag.create(lister_id: sam.id, designer: "Moschino", bag_type: "cross-body", color: "pink", fabric: "leather", price: 170, image: "https://www.moschino.com/media/catalog/product/A/E/AEF2027_74558208-0222-1_1.png")
+bag27 = Handbag.create(lister_id: sam.id, designer: "Moschino", bag_type: "shoulder bag", color: "black", fabric: "leather", price: 190, image: "https://i.pinimg.com/originals/d8/7f/b6/d87fb6eb8dc12d2c5f42ab049ba150fe.png")
+bag28 = Handbag.create(lister_id: sam.id, designer: "Miu Miu", bag_type: "cross-body", color: "silver", fabric: "leather", price: 200, image: "https://www.miumiu.com/content/dam/miumiu_products/5/5BD/5BD083/N88F0135/5BD083_N88_F0135_V_OOO_SLF.png")
+bag29 = Handbag.create(lister_id: sam.id, designer: "Loewe", bag_type: "shoulder bag", color: "grey", fabric: "leather", price: 160, image: "https://cdn.shopify.com/s/files/1/0087/1805/7551/products/Layer_119_34e9bbef-17be-4924-852b-3b070086d32b.png?v=1575949303")
+bag30 = Handbag.create(lister_id: sam.id, designer: "Loewe", bag_type: "cross-body", color: "brown", fabric: "leather", price: 120, image: "https://www.google.com/search?q=loewe+elephant+bag+png+transparent&tbm=isch&ved=2ahUKEwiW1Z-O9N7rAhVKJN8KHRGyCfAQ2-cCegQIABAA&oq=loewe+elephant+bag+png+transparent&gs_lcp=CgNpbWcQA1DheFjvhgFg64cBaABwAHgBgAHGAogB-RSSAQcwLjIuNi4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=u0ZaX9aLFMrI_AaR5KaADw&bih=789&biw=1440&rlz=1C5CHFA_enUS865US865#imgrc=RX0iJm1ngU6KcM")
+bag31 = Handbag.create(lister_id: sam.id, designer: "Fendi", bag_type: "handbag", color: "white", fabric: "leather", price: 230, image: "https://i.pinimg.com/originals/54/c2/70/54c270954d05acfabc1a20f9269f9fbf.png")
+
 
 
 cat_rented = UserHandbag.create(user_id:cat.id, handbag_id: bag8.id)
