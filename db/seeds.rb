@@ -48,7 +48,7 @@ bag26 = Handbag.create(lister_id: sam.id, designer: "Moschino", bag_type: "cross
 bag27 = Handbag.create(lister_id: sam.id, designer: "Moschino", bag_type: "shoulder bag", color: "black", fabric: "leather", price: 190, image: "https://i.pinimg.com/originals/d8/7f/b6/d87fb6eb8dc12d2c5f42ab049ba150fe.png")
 bag28 = Handbag.create(lister_id: sam.id, designer: "Miu Miu", bag_type: "cross-body", color: "silver", fabric: "leather", price: 200, image: "https://www.miumiu.com/content/dam/miumiu_products/5/5BD/5BD083/N88F0135/5BD083_N88_F0135_V_OOO_SLF.png")
 bag29 = Handbag.create(lister_id: sam.id, designer: "Loewe", bag_type: "shoulder bag", color: "grey", fabric: "leather", price: 160, image: "https://cdn.shopify.com/s/files/1/0087/1805/7551/products/Layer_119_34e9bbef-17be-4924-852b-3b070086d32b.png?v=1575949303")
-bag30 = Handbag.create(lister_id: sam.id, designer: "Loewe", bag_type: "cross-body", color: "brown", fabric: "leather", price: 120, image: "https://www.google.com/search?q=loewe+elephant+bag+png+transparent&tbm=isch&ved=2ahUKEwiW1Z-O9N7rAhVKJN8KHRGyCfAQ2-cCegQIABAA&oq=loewe+elephant+bag+png+transparent&gs_lcp=CgNpbWcQA1DheFjvhgFg64cBaABwAHgBgAHGAogB-RSSAQcwLjIuNi4zmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=u0ZaX9aLFMrI_AaR5KaADw&bih=789&biw=1440&rlz=1C5CHFA_enUS865US865#imgrc=RX0iJm1ngU6KcM")
+
 bag31 = Handbag.create(lister_id: sam.id, designer: "Fendi", bag_type: "handbag", color: "white", fabric: "leather", price: 230, image: "https://i.pinimg.com/originals/54/c2/70/54c270954d05acfabc1a20f9269f9fbf.png")
 
 
